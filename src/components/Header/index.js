@@ -17,16 +17,18 @@ export default function Header() {
     const [expanded, setExpanded] = React.useState(false)
     const [visible, setVisible] = React.useState(true)
 
-    let prevScrollpos = window.pageYOffset
-    window.onscroll = () => {
-        window.scrollY === 0 ? setExpanded(false) : setExpanded(true)
+    if (typeof window !== 'undefined') {
+        let prevScrollpos = window.pageYOffset
+        window.onscroll = () => {
+            window.scrollY === 0 ? setExpanded(false) : setExpanded(true)
 
-        if (window.innerWidth > 540) return
+            if (window.innerWidth > 540) return
 
-        const currentScrollPos = window.pageYOffset
-        if (prevScrollpos > currentScrollPos) setVisible(true)
-        else setVisible(false)
-        prevScrollpos = currentScrollPos
+            const currentScrollPos = window.pageYOffset
+            if (prevScrollpos > currentScrollPos) setVisible(true)
+            else setVisible(false)
+            prevScrollpos = currentScrollPos
+        }
     }
 
     return (

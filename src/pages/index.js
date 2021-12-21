@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 
+import Layout from 'components/Layout'
 import SEO from 'components/SEO'
 import Button from 'components/Button'
 import FeaturesCard from 'components/FeaturesCard'
@@ -9,7 +10,7 @@ import { MainSection, BrandSection, Advertisement } from 'styles/homePage'
 
 export default function IndexPage() {
     return (
-        <>
+        <Layout>
             <SEO title='For Shoppers' />
             <MainSection className='text-center'>
                 <div className='separator'>
@@ -121,7 +122,8 @@ export default function IndexPage() {
             </BrandSection>
             <Advertisement>
                 <h2>
-                    Make your online shopping <span className='important'>Simpler.</span>
+                    Make your online shopping{' '}
+                    <span className='important'>Simpler.</span>
                 </h2>
                 <div className='d-flex justify-content-center'>
                     <Button
@@ -137,6 +139,6 @@ export default function IndexPage() {
                     </Button>
                 </div>
             </Advertisement>
-        </>
+        </Layout>
     )
 }
