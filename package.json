@@ -1,0 +1,44 @@
+{
+    "name": "new-up",
+    "version": "1.0.0",
+    "private": true,
+    "description": "new-up",
+    "author": "Lázaro",
+    "keywords": [
+        "gatsby"
+    ],
+    "scripts": {
+        "develop": "gatsby develop",
+        "start": "gatsby develop",
+        "build": "gatsby build",
+        "serve": "gatsby serve",
+        "clean": "gatsby clean",
+        "lint": "eslint . --fix",
+        "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
+    },
+    "dependencies": {
+        "aos": "^3.0.0-beta.6",
+        "babel-plugin-styled-components": "^2.0.2",
+        "bootstrap": "^5.1.3",
+        "gatsby": "^4.4.0",
+        "gatsby-plugin-netlify-cms": "^6.4.0",
+        "gatsby-plugin-styled-components": "^5.4.0",
+        "gatsby-source-filesystem": "^4.4.0",
+        "gatsby-transformer-remark": "^5.4.0",
+        "netlify-cms-app": "^2.15.61",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "react-helmet": "^6.1.0",
+        "styled-components": "^5.3.3"
+    },
+    "devDependencies": {
+        "eslint": "^7.32.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-import": "^2.25.3",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^5.2.0",
+        "eslint-plugin-react": "^7.27.1",
+        "prettier": "^2.5.1"
+    }
+}
