@@ -9,13 +9,17 @@ export const InfoSection = styled.div`
         list-style: none;
         li {
             max-width: 34rem;
+            color: ${colors.gray};
         }
         li::before {
-            content: '✔';
-            display: inline-block;
-            margin-left: -1.3em;
-            width: 1.3em;
-            color: ${colors.gray};
+            ${props =>
+                props.listStyle
+                    ? `content: '✔';
+                    display: inline-block;
+                    margin-left: -1.3em;
+                    width: 1.3em;
+                    color: ${colors.gray};`
+                    : null}
         }
     }
     strong {
@@ -37,6 +41,14 @@ export const InfoSection = styled.div`
     }
     .contain-card {
         padding: 0 1rem;
+        h3 {
+            display: inline-block;
+            margin-right: auto;
+            font-size: 1.375rem;
+            background: ${colors.important};
+            margin-top: 2.7rem;
+            margin-bottom: 1.4rem;
+        }
     }
     .flex-row-reverse img {
         margin-right: 0 !important;

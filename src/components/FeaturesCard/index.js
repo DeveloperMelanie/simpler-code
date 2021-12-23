@@ -9,10 +9,14 @@ export default function FeaturesCard({
     pt,
     pb,
     className,
+    featuresClassName,
+    listStyle = true,
+    dataAos,
 }) {
     return (
         <InfoSection
             className={background ? `bg-lightgray` : null}
+            listStyle={listStyle}
             paddingTop={pt}
             paddingBottom={pb}
         >
@@ -26,20 +30,44 @@ export default function FeaturesCard({
                         width={image.width}
                         height={image.height}
                         alt={image.alt}
-                        data-aos='fade-up'
+                        data-aos={dataAos || 'fade-up'}
                     />
                 )}
                 <div className='col-auto'>
-                    <h2 className='title'>{title}</h2>
-                    <ul className='content'>
+                    {title && <h2 className='title'>{title}</h2>}
+                    <ul
+                        className={`content ${featuresClassName} ${
+                            !title ? 'pt-5-responsive' : null
+                        }`}
+                    >
                         {features &&
                             features.map((feature, i) => (
-                                <li
-                                    key={i}
-                                    dangerouslySetInnerHTML={{
-                                        __html: feature,
-                                    }}
-                                />
+                                <React.Fragment key={i}>
+                                    {feature.title ? (
+                                        <>
+                                            <div>
+                                                <h3
+                                                    className={
+                                                        i === 0 ? 'mt-0' : null
+                                                    }
+                                                >
+                                                    {feature.title}
+                                                </h3>
+                                            </div>
+                                            <li
+                                                dangerouslySetInnerHTML={{
+                                                    __html: feature.feature,
+                                                }}
+                                            />
+                                        </>
+                                    ) : (
+                                        <li
+                                            dangerouslySetInnerHTML={{
+                                                __html: feature,
+                                            }}
+                                        />
+                                    )}
+                                </React.Fragment>
                             ))}
                     </ul>
                 </div>

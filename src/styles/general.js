@@ -3,15 +3,25 @@ import { colors } from './theme'
 
 export const MainSection = styled.div`
     padding: 0 1rem;
-    padding-top: calc(8.5em + 126px);
+    padding-top: 8.5em;
     h1 {
         font-size: 4.25rem;
+        @media (max-width: 400px) {
+            font-size: 3.9rem;
+        }
         @media (max-width: 350px) {
             font-size: 3.5rem;
         }
     }
+    strong {
+        font-weight: 700;
+        color: ${colors.black};
+    }
     .subtitle {
+        display: inline-block;
+        max-width: 27rem;
         font-size: 1.563rem;
+        line-height: 1.4em;
         font-weight: 300;
         color: ${colors.gray};
     }
@@ -29,22 +39,6 @@ export const MainSection = styled.div`
     }
     .pt-7 {
         padding-top: 3rem;
-    }
-`
-export const BrandSection = styled.div`
-    padding: 4.8rem 0;
-    width: 92%;
-    margin: 0 auto;
-    background: ${colors.gray};
-    text-align: center;
-    font-size: 1.25rem;
-    font-weight: 300;
-    color: ${colors.white};
-    .mb-6 {
-        margin-bottom: 6rem;
-    }
-    .gap-7 {
-        gap: 4rem;
     }
 `
 export const Advertisement = styled.div`

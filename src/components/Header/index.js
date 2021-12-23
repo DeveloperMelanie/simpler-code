@@ -12,7 +12,7 @@ import {
 
 import Button from 'components/Button'
 
-export default function Header() {
+export default function Header({ active }) {
     const [isOpen, setIsOpen] = React.useState(false)
     const [expanded, setExpanded] = React.useState(false)
     const [visible, setVisible] = React.useState(true)
@@ -39,10 +39,20 @@ export default function Header() {
                 <Menu isOpen={isOpen}>
                     <div className='position-relative w-100 h-100'>
                         <div className='menu-container w-100'>
-                            <Link to='/' className='route-link active'>
+                            <Link
+                                to='/'
+                                className={`route-link ${
+                                    active === 'for-shoppers' ? 'active' : null
+                                }`}
+                            >
                                 For Shoppers
                             </Link>
-                            <Link to='/for-sellers' className='route-link'>
+                            <Link
+                                to='/for-sellers'
+                                className={`route-link ${
+                                    active === 'for-sellers' ? 'active' : null
+                                }`}
+                            >
                                 For Sellers
                             </Link>
                         </div>
@@ -55,10 +65,20 @@ export default function Header() {
                         Simpler.
                     </Link>
                     <div className='d-flex gap-2 arial content-section'>
-                        <Link to='/' className='route-link active'>
+                        <Link
+                            to='/'
+                            className={`route-link ${
+                                active === 'for-shoppers' ? 'active' : null
+                            }`}
+                        >
                             For Shoppers
                         </Link>
-                        <Link to='/for-sellers' className='route-link'>
+                        <Link
+                            to='/for-sellers'
+                            className={`route-link ${
+                                active === 'for-sellers' ? 'active' : null
+                            }`}
+                        >
                             For Sellers
                         </Link>
                         <Button to='/' isLink={false} className='ms-3'>

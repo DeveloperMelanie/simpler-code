@@ -11,9 +11,17 @@ export const GlobalStyles = createGlobalStyle`
         src: url(${PoppinsSemiBold});
     }
 
+    html {
+        scroll-behavior: auto !important;
+    }
+
     body {
         font-family: 'Lato', sans-serif !important;
         color: ${colors.black} !important;
+    }
+
+    main {
+        padding-top: 126px;
     }
 
     a {
@@ -27,6 +35,10 @@ export const GlobalStyles = createGlobalStyle`
 
     .important {
         background: ${colors.important};
+    }
+
+    .important-lite {
+        background: ${colors.importantLite};
     }
 
     .bg-lightgray {
@@ -62,11 +74,42 @@ export const GlobalStyles = createGlobalStyle`
         img {
             border-radius: 5px 5px;
             box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.5);
-            display: block;
             border-style: solid;
             border-color: ${colors.white};
             border-width: 2px 2px;
             overflow: hidden;
+        }
+    }
+
+    .mt--2 {
+        margin-top: -2rem;
+    }
+
+    .line-height-normal {
+        line-height: normal !important;
+    }
+
+    .ms-6 {
+        margin-left: 5.5rem !important;
+        @media (max-width: 1120px) {
+            margin-left: 0 !important;
+            padding: 0;
+        }
+    }
+
+    .pb-6 {
+        padding-bottom: 6rem !important;
+    }
+
+    .pt-5-responsive {
+        @media (max-width: 1000px) {
+            padding-top: 3rem !important;
+        }
+    }
+
+    .col-auto {
+        @media (max-width: 500px) {
+            padding: 0 !important;
         }
     }
 `

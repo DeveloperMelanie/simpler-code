@@ -11,7 +11,7 @@ const button = css`
     font-family: Arial, Helvetica, sans-serif;
     font-size: ${props => (props.fontSize ? props.fontSize : '0.938rem')};
     font-weight: 700;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.02em;
     border-radius: 6px;
     transition: all 0.2s ease;
     ${props =>
