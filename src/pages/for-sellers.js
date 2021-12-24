@@ -14,10 +14,10 @@ import { GraySection, InformativeSection } from 'styles/forSellers'
 import { colors } from 'styles/theme'
 
 import Buy from 'images/buy.gif'
-import Landing1 from 'images/landing-1.webp'
-import Landing2 from 'images/landing-2.webp'
-import Landing3 from 'images/landing-3.webp'
-import Landing4 from 'images/landing-4.webp'
+import Landing1 from 'images/Landing-1.webp'
+import Landing2 from 'images/Landing-2.webp'
+import Landing3 from 'images/Landing-3.webp'
+import Landing4 from 'images/Landing-4.webp'
 import Dashboard from 'images/seller-dashboard.webp'
 
 export default function ForSellers() {
