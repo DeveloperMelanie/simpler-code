@@ -9,6 +9,10 @@ import BrandsSection from 'components/BrandsSection'
 
 import { MainSection, Advertisement } from 'styles/general'
 
+import Buy from 'images/buy.gif'
+import Products from 'images/products.gif'
+import Safe from 'images/safe.webp'
+
 export default function IndexPage() {
     return (
         <Layout active='for-shoppers'>
@@ -49,7 +53,7 @@ export default function IndexPage() {
                 pb='6rem'
                 title='Skip the passwords. Forget the long forms.'
                 image={{
-                    img: 'https://static.wixstatic.com/media/eb8dec_259c823e6be3479e830da9a0c1b57237~mv2.gif',
+                    img: Buy,
                     alt: 'Traditional sellers',
                     width: '336px',
                     height: '524px',
@@ -67,7 +71,7 @@ export default function IndexPage() {
                 pb='6rem'
                 title='All your purchases in 1 place'
                 image={{
-                    img: 'https://static.wixstatic.com/media/eb8dec_bda2e9b32b4b441cb40d81e8c81a450b~mv2.gif',
+                    img: Products,
                     alt: 'GIF DASHBOARD',
                     width: '350px',
                     height: '601px',
@@ -83,7 +87,7 @@ export default function IndexPage() {
                 pb='11.8rem'
                 title='Safe, quick and simple. The future of online shopping.'
                 image={{
-                    img: 'https://static.wixstatic.com/media/eb8dec_bf033c67096a425096183327526e3966~mv2.png/v1/fill/w_362,h_286,al_c,q_85,usm_0.66_1.00_0.01/PCI%20FOR%20WEBSITE.webp',
+                    img: Safe,
                     alt: 'PCI FOR WEBSITE',
                     width: '362px',
                     height: '286px',

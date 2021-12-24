@@ -6,6 +6,14 @@ import SEO from 'components/SEO'
 
 import { GlobalDocument, Document, Body } from 'styles/docs'
 
+import Step2 from 'images/Step2.webp'
+import Step3 from 'images/Step3.webp'
+import Step35 from 'images/Step3-5.webp'
+import Step5 from 'images/Step5.webp'
+import Step6 from 'images/Step6.webp'
+import Step7 from 'images/Step7.webp'
+import Step9 from 'images/Step9.webp'
+
 export default function Docs() {
     return (
         <Layout>
@@ -50,10 +58,7 @@ export default function Docs() {
                                 /wp-admin
                             </span>
                         </div>
-                        <img
-                            src='https://static.wixstatic.com/media/804960_ccd53018bb804692a3acd3f4495bb9ea~mv2.png/v1/fill/w_314,h_331,al_c,q_85,usm_0.66_1.00_0.01/804960_ccd53018bb804692a3acd3f4495bb9ea~mv2.webp'
-                            alt
-                        />
+                        <img src={Step2} alt />
                         <div className='separator'>
                             <li className='section minor-margin'>
                                 Search and Install the Simpler Checkout plugin
@@ -63,20 +68,12 @@ export default function Docs() {
                                 navigate to Plugins --> Add New​
                             </span>
                         </div>
-                        <img
-                            src='https://static.wixstatic.com/media/804960_73fd4b78d57946699bc7dc777c8f689d~mv2.png/v1/fill/w_784,h_555,al_c,q_90,usm_0.66_1.00_0.01/804960_73fd4b78d57946699bc7dc777c8f689d~mv2.webp'
-                            alt
-                            className='minor-margin'
-                        />
+                        <img src={Step3} alt className='minor-margin' />
                         <p className='text-start pt-5'>
                             Then from the Plugins page, search for "Simpler
                             Checkout" and click on "Install Now".
                         </p>
-                        <img
-                            src='https://static.wixstatic.com/media/804960_454b78bcbd3342faa2cc8711395d590b~mv2.png/v1/crop/x_1153,y_149,w_827,h_721/fill/w_419,h_360,al_c,q_85,usm_0.66_1.00_0.01/Search%20Simpler%20Checkout%20Plugin.webp'
-                            alt
-                            className='minor-margin mt-2'
-                        />
+                        <img src={Step35} alt className='minor-margin mt-2' />
                         <div className='separator pt-4'>
                             <li className='section minor-margin'>
                                 Activate Simpler Plugin
@@ -97,11 +94,7 @@ export default function Docs() {
                                 on "Settings".
                             </span>
                         </div>
-                        <img
-                            src='https://static.wixstatic.com/media/804960_a7fb4bda19c44671b26aefc4bd1d3136~mv2.png/v1/crop/x_0,y_0,w_1976,h_180/fill/w_878,h_80,al_c,q_85,usm_0.66_1.00_0.01/Frame%2056.webp'
-                            alt
-                            className='minor-margin mt-4'
-                        />
+                        <img src={Step5} alt className='minor-margin mt-4' />
                         <div className='separator'>
                             <li className='section minor-margin'>
                                 Add your Simpler credentials
@@ -118,11 +111,7 @@ export default function Docs() {
                                 from step 1.
                             </span>
                         </div>
-                        <img
-                            src='https://static.wixstatic.com/media/804960_8abe40dcff644f8a821559a3bf19fffb~mv2.png/v1/fill/w_850,h_285,al_c,q_85,usm_0.66_1.00_0.01/Add%20API%20Key%20and%20Secret.webp'
-                            alt
-                            className='minor-margin'
-                        />
+                        <img src={Step6} alt className='minor-margin' />
                         <div className='separator pt-4'>
                             <li className='section minor-margin'>
                                 Authorise Simpler to connect with your
@@ -154,11 +143,7 @@ export default function Docs() {
                                 connect to your store.
                             </span>
                         </div>
-                        <img
-                            src='https://static.wixstatic.com/media/804960_22f70639ebec4a2aa838c6993cc77f9f~mv2.png/v1/fill/w_357,h_300,al_c,q_85,usm_0.66_1.00_0.01/auth.webp'
-                            alt
-                            className='minor-margin'
-                        />
+                        <img src={Step7} alt className='minor-margin' />
                         <div className='separator pt-4'>
                             <li className='section minor-margin'>
                                 Test the functionality and look & feel of the
@@ -195,11 +180,7 @@ export default function Docs() {
                                 customers.
                             </span>
                         </div>
-                        <img
-                            src='https://static.wixstatic.com/media/804960_4c3c8b9bde0f444fa6a3da760cad24b3~mv2.png/v1/fill/w_808,h_186,al_c,q_85,usm_0.66_1.00_0.01/test%20mode.webp'
-                            alt
-                            className='minor-margin'
-                        />
+                        <img src={Step9} alt className='minor-margin' />
                         <h4
                             style={{
                                 fontSize: '1.563rem',

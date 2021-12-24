@@ -51,7 +51,7 @@ export const Document = styled.div`
     }
     .section {
         font-size: 2.125rem;
-        padding-top: 5.7rem;
+        margin-top: 5.7rem;
         padding-bottom: 0.2rem;
     }
     img {

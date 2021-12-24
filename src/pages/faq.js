@@ -1,5 +1,7 @@
 import * as React from 'react'
+import $ from 'jquery'
 import { Link } from 'gatsby'
+import { scrollTo } from 'utils'
 
 import Layout from 'components/Layout'
 import SEO from 'components/SEO'
@@ -7,7 +9,7 @@ import Card from 'components/Card'
 
 import { CardsContainer, Document } from 'styles/faq'
 
-export default function Docs() {
+export default function Faq() {
     return (
         <Layout>
             <SEO title='FAQ' />
@@ -18,16 +20,18 @@ export default function Docs() {
                         title='Shoppers'
                         description='How it works, Privacy topics, Shopper Dashboard, Troubleshooting etc'
                         btnText='See more'
+                        onClick={() => scrollTo($('#shoppers').offset().top)}
                     />
                     <Card
                         title='Sellers'
                         description='How it works, Payments, Refunds, Seller Dashboard, Docs, Troubleshooting etc'
                         btnText='See more'
+                        onClick={() => scrollTo($('#sellers').offset().top)}
                     />
                 </div>
             </CardsContainer>
             <Document>
-                <h2>Shoppers</h2>
+                <h2 id='shoppers'>Shoppers</h2>
                 <h3>What is Simpler Checkout? How does it work?</h3>
                 <p>
                     1. You click on the Simpler Quick Buy button that you see on
@@ -144,7 +148,9 @@ export default function Docs() {
                     reach out to us at{' '}
                     <a href='mailto:support@simpler.so'>support@simpler.so</a>.
                 </p>
-                <h2 className='section'>Sellers</h2>
+                <h2 className='section' id='sellers'>
+                    Sellers
+                </h2>
                 <h3>How do I install Simpler Checkout to my website?</h3>
                 <p>
                     Simpler Checkout can be installed as a plugin to any

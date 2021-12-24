@@ -69,8 +69,8 @@ export const GraySection = styled.div`
                 height: auto;
             }
             img:last-child {
-                max-width: 300px;
-                max-height: 531px;
+                max-width: 306px;
+                max-height: 587px;
                 width: 100%;
                 height: auto;
                 position: absolute;

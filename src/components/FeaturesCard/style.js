@@ -6,6 +6,7 @@ export const InfoSection = styled.div`
     padding-bottom: ${props =>
         props.paddingBottom ? props.paddingBottom : '2rem'};
     ul {
+        padding-left: ${props => (props.listStyle ? '2rem' : '0.4rem')};
         list-style: none;
         li {
             max-width: 34rem;

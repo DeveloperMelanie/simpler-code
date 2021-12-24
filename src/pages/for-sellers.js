@@ -13,6 +13,13 @@ import { MainSection, Advertisement } from 'styles/general'
 import { GraySection, InformativeSection } from 'styles/forSellers'
 import { colors } from 'styles/theme'
 
+import Buy from 'images/buy.gif'
+import Landing1 from 'images/landing-1.webp'
+import Landing2 from 'images/landing-2.webp'
+import Landing3 from 'images/landing-3.webp'
+import Landing4 from 'images/landing-4.webp'
+import Dashboard from 'images/seller-dashboard.webp'
+
 export default function ForSellers() {
     const [videoVisible, setVideoVisible] = React.useState(false)
 
@@ -110,12 +117,12 @@ export default function ForSellers() {
                 <div>
                     <div className='images-section image-decoration'>
                         <div className='image-group'>
-                            <img src='https://static.wixstatic.com/media/eb8dec_dd733521c05e492597b7f5f6b04886f0~mv2.png/v1/fill/w_689,h_347,al_c,q_85,usm_0.66_1.00_0.01/Landing%20page%20checkout%20link.webp' />
-                            <img src='https://static.wixstatic.com/media/eb8dec_38b518105ca944e7a86bc6962b929c7f~mv2.png/v1/crop/x_0,y_8,w_375,h_664/fill/w_296,h_527,al_c,q_85,usm_0.66_1.00_0.01/website%20traditional%20checkout.webp' />
+                            <img src={Landing1} />
+                            <img src={Landing2} />
                         </div>
                         <div className='image-group-reverse'>
-                            <img src='https://static.wixstatic.com/media/eb8dec_54f0b8965db945a2a60151d958e5022a~mv2.png/v1/crop/x_0,y_5,w_750,h_823/fill/w_446,h_484,al_c,q_85,usm_0.66_1.00_0.01/shoppable%20ad%20static.webp' />
-                            <img src='https://static.wixstatic.com/media/eb8dec_7fd56f131e48487eaf0a57b47a3ba3ce~mv2.png/v1/fill/w_306,h_587,al_c,q_85,usm_0.66_1.00_0.01/EMAIL%20OFFER%20CHECKOUT%20LINK.webp' />
+                            <img src={Landing3} />
+                            <img src={Landing4} />
                         </div>
                     </div>
                 </div>
@@ -170,7 +177,7 @@ export default function ForSellers() {
                     background={false}
                     listStyle={false}
                     image={{
-                        img: 'https://static.wixstatic.com/media/eb8dec_259c823e6be3479e830da9a0c1b57237~mv2.gif',
+                        img: Buy,
                         width: '320px',
                         height: '569px',
                         alt: 'traditional sellers.gif',
@@ -225,7 +232,7 @@ export default function ForSellers() {
                     background={false}
                     listStyle={false}
                     image={{
-                        img: 'https://static.wixstatic.com/media/eb8dec_31342c57213844799b8e3e0fc91aecbf~mv2.png/v1/crop/x_0,y_0,w_363,h_745/fill/w_334,h_677,al_c,q_85,usm_0.66_1.00_0.01/Seller%20dashboard%20reporting.webp',
+                        img: Dashboard,
                         width: '334px',
                         height: '677px',
                         alt: 'traditional sellers.gif',

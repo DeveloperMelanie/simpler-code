@@ -2,34 +2,121 @@ import * as React from 'react'
 
 import { BrandSection } from './style'
 
-export default function BrandsSection() {
+import Relevance from 'images/relevance-logo.webp'
+import Webapp from 'images/webapp-logo.webp'
+import Quest from 'images/quest-logo.webp'
+import Rocketpath from 'images/rocketpath-logo.webp'
+import Webnestors from 'images/webnestors-logo.webp'
+
+import RelevanceLarge from 'images/relevance-logo-large.webp'
+import WebappLarge from 'images/webapp-logo-large.webp'
+import QuestLarge from 'images/quest-logo-large.webp'
+import RocketpathLarge from 'images/rocketpath-logo-large.webp'
+import RedMonkey from 'images/redmonkey-logo.webp'
+import Webminds from 'images/webminds-logo.webp'
+import Webmate from 'images/webmate-logo.webp'
+
+export default function BrandsSection({ extended }) {
     return (
-        <BrandSection className='w-100'>
-            <div className='mb-6'>
-                <span>Trusted by</span>
-            </div>
-            <div className='d-flex flex-wrap align-items-center justify-content-center gap-7'>
-                <img
-                    src='https://static.wixstatic.com/media/804960_65f882fcfa1647f681377129c989b8a1~mv2.png/v1/fill/w_189,h_42,al_c,q_85,usm_0.66_1.00_0.01/relevance%20logo.webp'
-                    alt='relevance logo'
-                />
-                <img
-                    src='https://static.wixstatic.com/media/804960_172555cf5e81447dba8548549d76b6b9~mv2.png/v1/fill/w_118,h_79,al_c,q_85,usm_0.66_1.00_0.01/webapp-logo-dark-300x200-001%20(1)_edited.webp'
-                    alt='webapp-logo-dark-300x200-001 (1)_edited.png'
-                />
-                <img
-                    src='https://static.wixstatic.com/media/804960_5f8a17bf2cd641a3b4b3724a55e577db~mv2.png/v1/crop/x_0,y_0,w_154,h_53/fill/w_105,h_35,al_c,q_85,usm_0.66_1.00_0.01/quest.webp'
-                    alt='quest.png'
-                />
-                <img
-                    src='https://static.wixstatic.com/media/804960_88cf3db7fa1242fb863b712835560ddf~mv2.png/v1/fill/w_149,h_71,al_c,q_85,usm_0.66_1.00_0.01/rocketpath%20logo.webp'
-                    alt='rocketpath logo.png'
-                />
-                <img
-                    src='https://static.wixstatic.com/media/804960_ddcdda7f0e5442e58b2dd982a5cc6173~mv2.png/v1/fill/w_177,h_50,al_c,lg_1,q_85/Logo-Black-350px-1-e1630481520140_edited.webp'
-                    alt='Logo-Black-350px-1-e1630481520140_edited.png'
-                />
-            </div>
-        </BrandSection>
+        <>
+            {!extended ? (
+                <BrandSection className='w-100' extended={extended}>
+                    <div className='mb-6'>
+                        <span>Trusted by</span>
+                    </div>
+                    <div className='d-flex flex-wrap align-items-center justify-content-center gap-7'>
+                        <img src={Relevance} alt='relevance logo' />
+                        <img
+                            src={Webapp}
+                            alt='webapp-logo-dark-300x200-001 (1)_edited.png'
+                        />
+                        <img src={Quest} alt='quest.png' />
+                        <img src={Rocketpath} alt='rocketpath logo.png' />
+                        <img
+                            src={Webnestors}
+                            alt='Logo-Black-350px-1-e1630481520140_edited.png'
+                        />
+                    </div>
+                </BrandSection>
+            ) : (
+                <BrandSection className='w-100' extended={extended}>
+                    <div className='mb-6'>
+                        <span>Trusted by</span>
+                    </div>
+                    <div className='d-flex flex-wrap align-items-center justify-content-center gap-7'>
+                        <a
+                            href='https://relevancedigital.com/'
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            className='d-flex'
+                        >
+                            <img
+                                src={RelevanceLarge}
+                                alt='Relevance Digital Agency'
+                            />
+                        </a>
+                        <a
+                            href='https://webappdesign.gr/'
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            className='d-flex'
+                        >
+                            <img src={WebappLarge} alt='Webapp Design' />
+                        </a>
+                        <a
+                            href='https://www.quest.gr/'
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            className='d-flex'
+                        >
+                            <img src={QuestLarge} alt='Quest' />
+                        </a>
+                        <a
+                            href='https://rocket-path.com/'
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            className='d-flex'
+                        >
+                            <img src={RocketpathLarge} alt='Rocket Path' />
+                        </a>
+                        <a
+                            href='https://redmonkey.gr/'
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            className='d-flex'
+                        >
+                            <img
+                                src={RedMonkey}
+                                alt='Red Monkey Digital Marketing'
+                            />
+                        </a>
+                        <a
+                            href='https://webminds.gr/'
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            className='d-flex'
+                        >
+                            <img src={Webminds} alt='Web Minds' />
+                        </a>
+                        <a
+                            href='https://webnestors.com/'
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            className='d-flex'
+                        >
+                            <img src={Webnestors} alt='Web Nestors' />
+                        </a>
+                        <a
+                            href='https://web-mate.gr/'
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            className='d-flex'
+                        >
+                            <img src={Webmate} alt='Web Mate' />
+                        </a>
+                    </div>
+                </BrandSection>
+            )}
+        </>
     )
 }

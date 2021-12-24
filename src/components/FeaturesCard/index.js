@@ -12,6 +12,7 @@ export default function FeaturesCard({
     featuresClassName,
     listStyle = true,
     dataAos,
+    ...props
 }) {
     return (
         <InfoSection
@@ -19,6 +20,7 @@ export default function FeaturesCard({
             listStyle={listStyle}
             paddingTop={pt}
             paddingBottom={pb}
+            {...props}
         >
             <div
                 className={`contain-card m-0 row justify-content-center ${className}`}
@@ -27,7 +29,7 @@ export default function FeaturesCard({
                     <Image
                         className='p-0'
                         src={image.img}
-                        width={image.width}
+                        width={image.width || '560px'}
                         height={image.height}
                         alt={image.alt}
                         data-aos={dataAos || 'fade-up'}

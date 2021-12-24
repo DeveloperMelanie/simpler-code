@@ -1,12 +1,11 @@
 import * as React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from 'components/Layout'
 import SEO from 'components/SEO'
 
 import { LegalDocument, Body } from 'styles/legalDocument'
 
-export default function Docs() {
+export default function TermsBuyers() {
     return (
         <Layout>
             <SEO title='T&C Buyers' />
@@ -18,7 +17,10 @@ export default function Docs() {
                     </strong>
                     <em className='d-block'>Effective on March 10, 2021</em>
                     <p>
-                        This website <Link to='/'>https://www.simpler.so/</Link>{' '}
+                        This website{' '}
+                        <a href='/' target='_blank'>
+                            https://www.simpler.so/
+                        </a>{' '}
                         (hereinafter referred to as the "Website") is owned by
                         the company under the name “SIMPLER GROUP LTD”, based in
                         London, at Kemp House, 160 City Road, EC1V 2NX
@@ -49,10 +51,12 @@ export default function Docs() {
                         terms and conditions that are applicable at the given
                         time in order to duly inform you. For this reason,we
                         will notify you by placing a notice on{' '}
-                        <Link to='/'>https://www.simpler.so/</Link> website,
-                        sending you an email, and/or by some other means. By
-                        continuing to use Simpler services, following any
-                        amendments, you are considered to have agreed
+                        <a href='/' target='_blank'>
+                            https://www.simpler.so/
+                        </a>{' '}
+                        website, sending you an email, and/or by some other
+                        means. By continuing to use Simpler services, following
+                        any amendments, you are considered to have agreed
                         unconditionally to the amended terms.
                     </p>
                     <strong>1. General</strong>

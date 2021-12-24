@@ -2,6 +2,7 @@ import { createGlobalStyle } from 'styled-components'
 import { colors } from './theme'
 
 import PoppinsSemiBold from './fonts/Poppins-SemiBold.ttf'
+import PoppinsBold from './fonts/Poppins-Bold.ttf'
 
 export const GlobalStyles = createGlobalStyle`
     @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
@@ -9,6 +10,11 @@ export const GlobalStyles = createGlobalStyle`
     @font-face {
         font-family: 'Poppins';
         src: url(${PoppinsSemiBold});
+    }
+
+    @font-face {
+        font-family: 'Poppins-Bold';
+        src: url(${PoppinsBold});
     }
 
     html {
@@ -33,6 +39,13 @@ export const GlobalStyles = createGlobalStyle`
         font-weight: 700 !important;
     }
 
+    select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        text-indent: 1px;
+        text-overflow: '';
+    }
+
     .important {
         background: ${colors.important};
     }
@@ -55,6 +68,10 @@ export const GlobalStyles = createGlobalStyle`
 
     .poppins {
         font-family: 'Poppins', sans-serif;
+    }
+
+    .poppins-bold {
+        font-family: 'Poppins-Bold', sans-serif;
     }
 
     .btn-text {
@@ -110,6 +127,30 @@ export const GlobalStyles = createGlobalStyle`
     .col-auto {
         @media (max-width: 500px) {
             padding: 0 !important;
+        }
+    }
+
+    .card-li {
+        font-size: 0.813rem;
+        font-weight: 300;
+        color: ${colors.gray};
+        letter-spacing: 0.05em;
+    }
+
+    .no-wrap {
+        white-space: nowrap !important;
+    }
+
+    .width-extend .title {
+        max-width: 40rem !important;
+        font-size: 2.25rem !important;
+    }
+
+    .max-width-100 {
+        max-width: 100% !important;
+        @media (max-width: 400px) {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
         }
     }
 `

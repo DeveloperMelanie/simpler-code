@@ -13,6 +13,7 @@ const button = css`
     font-weight: 700;
     letter-spacing: 0.02em;
     border-radius: 6px;
+    white-space: nowrap;
     transition: all 0.2s ease;
     ${props =>
         props.hover
@@ -21,6 +22,11 @@ const button = css`
                     color: ${colors.black} !important;
                 }`
             : null}
+    @media (max-width: 400px) {
+        padding: 0.7rem 3rem;
+        max-width: fit-content;
+        width: 100%;
+    }
 `
 export const BTNLink = styled(Link)`
     ${button}

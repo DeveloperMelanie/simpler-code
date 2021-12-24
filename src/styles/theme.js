@@ -3,6 +3,6 @@ export const colors = {
     white: '#FFFFFF',
     important: '#FFE83D',
     importantLite: '#FDFFD6',
-    lightgray: '#F5F5F5',
+    lightgray: '#F6F7F8',
     gray: '#484D53',
 }

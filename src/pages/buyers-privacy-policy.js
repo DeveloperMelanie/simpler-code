@@ -1,12 +1,11 @@
 import * as React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from 'components/Layout'
 import SEO from 'components/SEO'
 
 import { LegalDocument, Body } from 'styles/legalDocument'
 
-export default function Docs() {
+export default function BuyersPrivacyPolicy() {
     return (
         <Layout>
             <SEO title='Privacy Policy' />
@@ -422,11 +421,14 @@ export default function Docs() {
                         Simpler updates this Policy whenever necessary. If there
                         are significant changes in the Policy or in the way we
                         process your Personal Data, we will publish on our
-                        website (<Link to='/'>https://www.simpler.so/</Link>)
-                        the update of this before the changes are made in force
-                        and we will notify you in any convenient way. Simpler
-                        encourages you to read this Policy regularly to know how
-                        your Data is protected.
+                        website (
+                        <a href='/' target='_blank'>
+                            https://www.simpler.so/
+                        </a>
+                        ) the update of this before the changes are made in
+                        force and we will notify you in any convenient way.
+                        Simpler encourages you to read this Policy regularly to
+                        know how your Data is protected.
                     </p>
                 </Body>
             </LegalDocument>
