@@ -4,21 +4,18 @@ import Button from 'components/Button'
 
 import { CardItem } from './style'
 
-export default function Card({ ...props }) {
+export default function Card({ title, description, btnText, ...props }) {
     return (
         <CardItem {...props}>
-            <h2 className='title'>Shoppers</h2>
-            <span className='description'>
-                How it works, Privacy topics, Shopper Dashboard, Troubleshooting
-                etc
-            </span>
+            <h2 className='title'>{title}</h2>
+            <span className='description'>{description}</span>
             <div className='d-flex justify-content-center'>
                 <Button
                     isLink={false}
                     padding='0.4rem 1.6rem'
                     className='fw-normal'
                 >
-                    See more
+                    {btnText}
                 </Button>
             </div>
         </CardItem>

@@ -7,6 +7,12 @@ export const CardsContainer = styled.div`
     padding-bottom: 5rem;
     text-align: center;
     background: ${colors.lightgray};
+    .cards {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0.88rem;
+    }
     .section-title {
         font-size: 2.375rem;
         margin-bottom: 6rem;
@@ -15,22 +21,42 @@ export const CardsContainer = styled.div`
 export const Document = styled.div`
     font-weight: 300;
     padding: 2rem 1rem;
-    max-width: 63rem;
+    padding-bottom: 4.4rem;
+    max-width: 62rem;
     margin: 0 auto;
     font-size: 1.25rem;
     line-height: normal;
     h2 {
         font-size: 1.875rem;
-        margin-bottom: 2.8rem;
     }
     h3 {
         font-size: 1.25rem;
         margin-bottom: 1.6rem;
+        margin-top: 2.8rem;
     }
     ol {
         padding-left: 0;
     }
     p {
         margin: 0;
+    }
+    .special-title {
+        margin-top: 4.5rem;
+        margin-bottom: 3.4rem;
+        font-size: 1.75rem;
+        font-weight: 300 !important;
+    }
+    .link {
+        text-decoration: underline !important;
+    }
+    .section {
+        font-size: 2.125rem;
+        padding-top: 5.7rem;
+        padding-bottom: 0.2rem;
+    }
+    img {
+        max-width: fit-content;
+        width: 100%;
+        height: auto;
     }
 `
