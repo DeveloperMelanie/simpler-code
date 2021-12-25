@@ -1,9 +1,8 @@
 {
-    "name": "new-up",
+    "name": "simpler",
     "version": "1.0.0",
     "private": true,
-    "description": "new-up",
-    "author": "Lázaro",
+    "description": "simpler",
     "keywords": [
         "gatsby"
     ],
@@ -22,7 +21,7 @@
         "bootstrap": "^5.1.3",
         "formik": "^2.2.9",
         "framer-motion": "^5.5.5",
-        "gatsby": "^4.4.0",
+        "gatsby": "4.3.0",
         "gatsby-plugin-netlify-cms": "^6.4.0",
         "gatsby-plugin-styled-components": "^5.4.0",
         "gatsby-source-filesystem": "^4.4.0",

@@ -65,7 +65,7 @@ export default function Docs() {
                             </li>
                             <span className='description'>
                                 In your Wordpress Dashboard menu on the left,
-                                navigate to Plugins --> Add New​
+                                navigate to Plugins --> Add New
                             </span>
                         </div>
                         <img src={Step3} alt className='minor-margin' />
