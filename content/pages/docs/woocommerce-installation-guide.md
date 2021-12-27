@@ -39,7 +39,13 @@ content: >-
   </div>
 
 
+  <div class="separator">
+
+
   Then from the Plugins page, search for "Simpler Checkout" and click on "Install Now".![](http://localhost:8000/static/Step3-5-fd8e39fee38ba223caeab2b60dd3bc96.webp)
+
+
+  </div>
 
 
   <div class="separator">
