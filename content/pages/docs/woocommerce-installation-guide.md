@@ -78,7 +78,7 @@ content: >-
   **6. Add your Simpler credentials**
 
 
-  Add the App ID and App Secret from step 1.![](http://localhost:8000/static/Step6-ae1cbde151b1fd665bd4ad2016a526d7.webp)
+  Add the <span class="important">*App ID*</span> and <span class="important">*App Secret*</span> from step 1.![](http://localhost:8000/static/Step6-ae1cbde151b1fd665bd4ad2016a526d7.webp)
 
 
   </div>
@@ -90,7 +90,7 @@ content: >-
   **7. Authorise Simpler to connect with your WooCommerce store**
 
 
-  Go to: [https://merchants.simpler.so/v1/integrations/authorize](https://merchants.simpler.so/v1/integrations/authorize/)/App ID?return_url=simpler.so adding your App ID from Step 1. Click on "Approve" to allow Simpler to connect to your store.![](http://localhost:8000/static/Step7-204c421e007cf7353482b6be25a490ca.webp)
+  Go to: <span class="no-decoration">[https://merchants.simpler.so/v1/integrations/authorize](https://merchants.simpler.so/v1/integrations/authorize/)</span>/App ID?return_url=simpler.so adding your App ID from Step 1. Click on "Approve" to allow Simpler to connect to your store.![](http://localhost:8000/static/Step7-204c421e007cf7353482b6be25a490ca.webp)
 
 
   </div>
