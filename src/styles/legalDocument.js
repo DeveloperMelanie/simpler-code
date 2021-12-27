@@ -18,18 +18,17 @@ export const Body = styled.div`
     color: ${colors.gray};
     font-size: 1rem;
     line-height: normal;
+    font-weight: 300;
     p {
         margin-bottom: 1rem;
     }
-    span,
-    p,
-    em {
-        font-weight: 300;
-    }
     strong {
-        display: block;
+        /* display: block; */
         margin-bottom: 1rem;
         font-weight: 600;
+    }
+    ul {
+        margin-top: -1rem;
     }
     a {
         text-decoration: underline !important;

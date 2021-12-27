@@ -12,25 +12,36 @@ exports.createPages = async function ({ actions, graphql }) {
     const { data } = await graphql(`
         query PagesQuery {
             allMarkdownRemark {
-                nodes {
-                    frontmatter {
-                        slug
-                        pageTitle
-                        title
-                        content
+                edges {
+                    node {
+                        frontmatter {
+                            type
+                            slug
+                            pageTitle
+                            title
+                            content
+                        }
                     }
                 }
             }
         }
     `)
 
-    data.allMarkdownRemark.nodes.forEach(({ frontmatter }) => {
-        const page = frontmatter
+    data.allMarkdownRemark.edges.forEach(({ node }) => {
+        const page = node.frontmatter
 
-        actions.createPage({
-            path: `/${page.slug}`,
-            component: require.resolve(`./src/templates/legal-document.js`),
-            context: { ...page },
-        })
+        const addPage = template => {
+            actions.createPage({
+                path: `/${page.slug}`,
+                component: require.resolve(template),
+                context: { ...page },
+            })
+        }
+
+        switch (page.type) {
+            case 'legal':
+                addPage(`./src/templates/legal-document.js`)
+                break
+        }
     })
 }

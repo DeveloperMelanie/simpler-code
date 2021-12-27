@@ -1,5 +1,4 @@
 import * as React from 'react'
-import { replaceAnchorsForLinks } from 'utils'
 import ReactMarkdown from 'react-markdown'
 
 import Layout from 'components/Layout'
@@ -9,7 +8,13 @@ import { LegalDocument, Body } from 'styles/legalDocument'
 
 export default function TermsBuyers({ pageContext }) {
     React.useEffect(() => {
-        replaceAnchorsForLinks(document.getElementById('body'))
+        document
+            .getElementById('body')
+            .querySelectorAll('a')
+            .forEach(a => {
+                if (a.href.indexOf('mailto:') !== -1) return
+                a.target = '_blank'
+            })
     })
 
     return (

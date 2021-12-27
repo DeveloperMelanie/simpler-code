@@ -19,7 +19,6 @@ export const replaceAnchorsForLinks = element => {
         } else {
             a.onclick = e => {
                 e.preventDefault()
-                console.log(a.pathname)
                 navigate(a.pathname)
             }
         }

@@ -164,4 +164,5 @@ content: >-
 
 
   The above terms are all agreed as essential and are modified only in writing.
+type: legal
 ---
