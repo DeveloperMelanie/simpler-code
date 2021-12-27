@@ -1,0 +1,27 @@
+backend:
+    name: github
+    repo: DeveloperMelanie/simpler-code
+    branch: main
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+    - name: terms-buyers
+      label: T&C Buyers
+      folder: content/pages/terms-buyers
+      create: true
+      fields:
+          - { name: pageTitle, label: Page Title, widget: string }
+          - { name: slug, label: Slug, widget: string, required: true }
+          - { name: title, label: Title, required: true }
+          - { name: content, label: Body, widget: markdown, required: true }
+    - name: buyers-privacy-policy
+      label: Privacy Policy
+      folder: content/pages/buyers-privacy-policy
+      create: true
+      fields:
+          - { name: pageTitle, label: Page Title, widget: string }
+          - { name: slug, label: Slug, widget: string, required: true }
+          - { name: title, label: Title, required: true }
+          - { name: content, label: Body, widget: markdown, required: true }

@@ -33,7 +33,7 @@ export const Body = styled.div`
     }
     strong {
         display: block;
-        padding-bottom: 1.2rem;
+        padding-bottom: 0;
         font-weight: 600;
     }
     a {
