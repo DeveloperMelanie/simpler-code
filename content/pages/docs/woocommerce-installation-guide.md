@@ -36,10 +36,10 @@ content: >-
   In your Wordpress Dashboard menu on the left, navigate to Plugins --> Add New![](http://localhost:8000/static/Step3-aa606d6f593626fe16a4dfbd91a95ab0.webp)
 
 
-  Then from the Plugins page, search for "Simpler Checkout" and click on "Install Now".![](http://localhost:8000/static/Step3-5-fd8e39fee38ba223caeab2b60dd3bc96.webp)
-
-
   </div>
+
+
+  Then from the Plugins page, search for "Simpler Checkout" and click on "Install Now".![](http://localhost:8000/static/Step3-5-fd8e39fee38ba223caeab2b60dd3bc96.webp)
 
 
   <div class="separator">
