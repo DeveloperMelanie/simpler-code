@@ -11,7 +11,7 @@ cards:
       Troubleshooting etc
     buttonText: See more
 content: >-
-  ## <div id="shoppers"Shoppers</div>
+  ## <div id="shoppers">Shoppers</div>
 
 
   ### What is Simpler Checkout? How does it work?
