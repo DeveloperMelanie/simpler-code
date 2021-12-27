@@ -36,9 +36,13 @@ export const Document = styled.div`
     }
     ol {
         padding-left: 0;
+        margin-left: 1.18rem;
     }
     p {
         margin: 0;
+    }
+    a {
+        text-decoration: underline !important;
     }
     .special-title {
         margin-top: 4.5rem;
@@ -46,8 +50,9 @@ export const Document = styled.div`
         font-size: 1.75rem;
         font-weight: 300 !important;
     }
-    .link {
-        text-decoration: underline !important;
+    .no-decoration,
+    .no-decoration a {
+        text-decoration: none !important;
     }
     .section {
         font-size: 2.125rem;

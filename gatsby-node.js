@@ -19,7 +19,25 @@ exports.createPages = async function ({ actions, graphql }) {
                             slug
                             pageTitle
                             title
+                            subtitle
                             content
+                            cards {
+                                buttonText
+                                description
+                                title
+                            }
+                            destacatedCard {
+                                title
+                                description
+                                buttonText
+                                buttonLink
+                            }
+                            secondaryCard {
+                                title
+                                description
+                                buttonText
+                                buttonLink
+                            }
                         }
                     }
                 }
@@ -44,6 +62,12 @@ exports.createPages = async function ({ actions, graphql }) {
                 break
             case 'guide':
                 addPage(`./src/templates/guide.js`)
+                break
+            case 'faq':
+                addPage(`./src/templates/faq.js`)
+                break
+            case 'pricing':
+                addPage(`./src/templates/pricing.js`)
                 break
         }
     })

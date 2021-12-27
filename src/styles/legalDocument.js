@@ -23,7 +23,6 @@ export const Body = styled.div`
         margin-bottom: 1rem;
     }
     strong {
-        /* display: block; */
         margin-bottom: 1rem;
         font-weight: 600;
     }
@@ -35,11 +34,13 @@ export const Body = styled.div`
         color: ${colors.gray} !important;
     }
     img {
+        display: block;
         max-width: fit-content;
         width: 100%;
         height: auto;
     }
-    .no-decoration {
+    .no-decorationm,
+    .no-decoration a {
         text-decoration: none !important;
     }
 `

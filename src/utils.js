@@ -1,13 +1,16 @@
 import { navigate } from 'gatsby'
+import MarkdownIt from 'markdown-it'
 import $ from 'jquery'
 
 export const scrollTo = (to, duration) => {
-    $('html, body').animate(
-        {
-            scrollTop: +to - 126,
-        },
-        duration || 1300
-    )
+    try {
+        $('html, body').animate(
+            {
+                scrollTop: +to - 126,
+            },
+            duration || 1300
+        )
+    } catch {}
 }
 
 export const replaceAnchorsForLinks = element => {
@@ -24,3 +27,7 @@ export const replaceAnchorsForLinks = element => {
         }
     })
 }
+
+export const parser = new MarkdownIt({
+    html: true,
+})

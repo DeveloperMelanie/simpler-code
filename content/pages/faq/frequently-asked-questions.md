@@ -92,7 +92,7 @@ content: >-
   ### How do I delete my information?
 
 
-  You can learn more about how we handle personal data in our [Privacy Policy](http://localhost:8000/buyers-privacy-policy). In case you want us to delete all your information please reach out to us at <span class="no-decoration">[support@simpler.so](mailto:support@simpler.so)</span>.
+  You can learn more about how we handle personal data in our [Privacy Policy](/buyers-privacy-policy). In case you want us to delete all your information please reach out to us at <span class="no-decoration">[support@simpler.so](mailto:support@simpler.so)</span>.
 
 
   ## <div class="section" id="sellers">Sellers</div>
@@ -101,13 +101,13 @@ content: >-
   ### How do I install Simpler Checkout to my website?
 
 
-  Simpler Checkout can be installed as a plugin to any WooCommerce website via a zero code, 5-minute process. You can follow the instructions [here](http://localhost:8000/docs).
+  Simpler Checkout can be installed as a plugin to any WooCommerce website via a zero code, 5-minute process. You can follow the instructions [here](/docs).
 
 
   ### My website does not use wooCommerce, how do I install Simpler Checkout?
 
 
-  We would be glad to offer you custom integration support! Just fill in the form [here](http://localhost:8000/get), and a member of our technical team will contact you shortly to learn more about your custom needs.
+  We would be glad to offer you custom integration support! Just fill in the form [here](/get), and a member of our technical team will contact you shortly to learn more about your custom needs.
 
 
   ### How much does Simpler Checkout cost?

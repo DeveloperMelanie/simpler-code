@@ -1,5 +1,5 @@
 import * as React from 'react'
-import ReactMarkdown from 'react-markdown'
+import { parser } from 'utils'
 
 import Layout from 'components/Layout'
 import SEO from 'components/SEO'
@@ -22,9 +22,12 @@ export default function TermsBuyers({ pageContext }) {
             <SEO title={pageContext.pageTitle} />
             <LegalDocument>
                 <h1 className='title'>{pageContext.title}</h1>
-                <Body id='body'>
-                    <ReactMarkdown>{pageContext.content}</ReactMarkdown>
-                </Body>
+                <Body
+                    id='body'
+                    dangerouslySetInnerHTML={{
+                        __html: parser.render(pageContext.content),
+                    }}
+                />
             </LegalDocument>
         </Layout>
     )

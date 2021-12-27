@@ -19,32 +19,20 @@ export const Body = styled.div`
     max-width: 60rem;
     margin: 0 auto;
     text-align: left;
-    .separator:first-child {
-        padding-top: 0;
-    }
+    font-weight: 300;
     .separator {
-        padding-top: 5rem;
+        padding-top: 4rem;
         text-align: left;
     }
-    .section {
-        font-size: 1.25rem;
-        margin-bottom: 2.5rem;
-        font-weight: 600;
-    }
-    .description {
+    strong {
         display: inline-block;
-        font-size: 1.125rem;
-        font-weight: 300;
-        color: ${colors.gray};
-    }
-    .minor-margin {
-        margin-bottom: 1.2rem;
+        font-size: 1.25rem;
+        margin-bottom: 0.5rem;
+        font-weight: 600;
     }
     span,
     p {
         font-size: 1.125rem;
-        font-weight: 300;
-        color: ${colors.gray};
         word-break: break-word;
     }
     ol {
@@ -55,12 +43,19 @@ export const Body = styled.div`
         text-decoration: underline !important;
     }
     img {
+        display: block;
         max-width: fit-content;
         width: 100%;
         height: auto;
+        margin: 1rem auto;
         margin-top: 2.5rem;
     }
-    .no-decoration {
+    .no-decoration,
+    .no-decoration a {
         text-decoration: none !important;
+    }
+    .final {
+        font-size: 1.563rem;
+        padding-top: 4.3rem;
     }
 `

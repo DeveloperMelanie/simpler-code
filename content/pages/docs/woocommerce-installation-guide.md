@@ -6,7 +6,7 @@ content: >-
   **1. Register with Simpler as a Seller**
 
 
-  The first step is to [register with Simpler as a seller](http://localhost:8000/get). Once you have a seller account, your account manager will then provide you with your <span class="important">*App ID*</span> & <span class="important">*App Secret*</span> which you will need for the WooCommerce plugin installation.
+  The first step is to [register with Simpler as a seller](/get). Once you have a seller account, your account manager will then provide you with your <span class="important">*App ID*</span> & <span class="important">*App Secret*</span> which you will need for the WooCommerce plugin installation.
 
 
   <div class="separator">
@@ -15,7 +15,7 @@ content: >-
   **2. Login to your WooCommerce admin panel**
 
 
-  Add your credentials to access your WooCommerce admin panel: https://<span class="important-lite">yourstore.com</span>/wp-admin![](http://localhost:8000/static/Step2-b811700d2b9df93bafa1c796222f3c08.webp)
+  Add your credentials to access your WooCommerce admin panel: https://<span class="important-lite">yourstore.com</span>/wp-admin![](/static/Step2-b811700d2b9df93bafa1c796222f3c08.webp)
 
 
   </div>
@@ -27,7 +27,7 @@ content: >-
   **3. Search and Install the Simpler Checkout plugin**
 
 
-  In your Wordpress Dashboard menu on the left, navigate to Plugins --> Add New![](http://localhost:8000/static/Step3-aa606d6f593626fe16a4dfbd91a95ab0.webp)
+  In your Wordpress Dashboard menu on the left, navigate to Plugins --> Add New![](/static/Step3-aa606d6f593626fe16a4dfbd91a95ab0.webp)
 
 
   </div>
@@ -36,7 +36,7 @@ content: >-
   <div class="separator">
 
 
-  Then from the Plugins page, search for "Simpler Checkout" and click on "Install Now".![](http://localhost:8000/static/Step3-5-fd8e39fee38ba223caeab2b60dd3bc96.webp)
+  Then from the Plugins page, search for "Simpler Checkout" and click on "Install Now".![](/static/Step3-5-fd8e39fee38ba223caeab2b60dd3bc96.webp)
 
 
   </div>
@@ -60,7 +60,7 @@ content: >-
   **5. Configure your Simpler Plugin**
 
 
-  Once the plugin is activated, make sure "Automated updates" are enabled and then click on "Settings".![](http://localhost:8000/static/Step5-6880e76793cc3961745ab13e64fcc005.webp)
+  Once the plugin is activated, make sure "Automated updates" are enabled and then click on "Settings".![](/static/Step5-6880e76793cc3961745ab13e64fcc005.webp)
 
 
   </div>
@@ -72,7 +72,7 @@ content: >-
   **6. Add your Simpler credentials**
 
 
-  Add the <span class="important">*App ID*</span> and <span class="important">*App Secret*</span> from step 1.![](http://localhost:8000/static/Step6-ae1cbde151b1fd665bd4ad2016a526d7.webp)
+  Add the <span class="important">*App ID*</span> and <span class="important">*App Secret*</span> from step 1.![](/static/Step6-ae1cbde151b1fd665bd4ad2016a526d7.webp)
 
 
   </div>
@@ -84,7 +84,7 @@ content: >-
   **7. Authorise Simpler to connect with your WooCommerce store**
 
 
-  Go to: <span class="no-decoration">[https://merchants.simpler.so/v1/integrations/authorize](https://merchants.simpler.so/v1/integrations/authorize/)</span>/<span class="text-decoration-underline"><span class="important">*App ID*</span>?return_url=simpler.so</span> adding your App ID from Step 1. Click on "Approve" to allow Simpler to connect to your store.![](http://localhost:8000/static/Step7-204c421e007cf7353482b6be25a490ca.webp)
+  Go to: <span class="no-decoration">[https://merchants.simpler.so/v1/integrations/authorize](https://merchants.simpler.so/v1/integrations/authorize/)</span>/<span class="text-decoration-underline"><span class="important">*App ID*</span>?return_url=simpler.so</span> adding your App ID from Step 1. Click on "Approve" to allow Simpler to connect to your store.![](/static/Step7-204c421e007cf7353482b6be25a490ca.webp)
 
 
   </div>
@@ -108,7 +108,7 @@ content: >-
   **9. Make the checkout button visible to everyone**
 
 
-  When you make sure everything looks and works as expected, uncheck the Test mode box, to make the Simpler Checkout button available for your customers.![](http://localhost:8000/static/Step9-afa9241bc0e237cd1134a17412397bd2.webp)
+  When you make sure everything looks and works as expected, uncheck the Test mode box, to make the Simpler Checkout button available for your customers.![](/static/Step9-afa9241bc0e237cd1134a17412397bd2.webp)
 
 
   </div>
