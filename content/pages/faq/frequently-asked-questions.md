@@ -80,7 +80,7 @@ content: >-
   ### What happens if my email account is hacked?
 
 
-  Please reach out to us at [support@simpler.so](mailto:support@simpler.so) if you believe your Simpler account or your email account has been compromised. We’ll work with you to help protect your account and prevent any risks.
+  Please reach out to us at <span class="no-decoration">[support@simpler.so](mailto:support@simpler.so)</div> if you believe your Simpler account or your email account has been compromised. We’ll work with you to help protect your account and prevent any risks.
 
 
   ### Is Simpler PCI compliant?
@@ -92,7 +92,7 @@ content: >-
   ### How do I delete my information?
 
 
-  You can learn more about how we handle personal data in our [Privacy Policy](http://localhost:8000/buyers-privacy-policy). In case you want us to delete all your information please reach out to us at [support@simpler.so](mailto:support@simpler.so).
+  You can learn more about how we handle personal data in our [Privacy Policy](http://localhost:8000/buyers-privacy-policy). In case you want us to delete all your information please reach out to us at <span class="no-decoration">[support@simpler.so](mailto:support@simpler.so)</span>.
 
 
   ## <div class="section" id="sellers">Sellers</div>
