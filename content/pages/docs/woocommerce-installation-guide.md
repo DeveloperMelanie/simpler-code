@@ -8,7 +8,7 @@ content: >-
 
 
 
-  The first step is to [register with Simpler as a seller](http://localhost:8000/get). Once you have a seller account, your account manager will then provide you with your ***App ID*** & ***App Secret*** which you will need for the WooCommerce plugin installation.
+  The first step is to [register with Simpler as a seller](http://localhost:8000/get). Once you have a seller account, your account manager will then provide you with your <span class="important">App ID</span> & ***App Secret*** which you will need for the WooCommerce plugin installation.
 
 
 
