@@ -5,6 +5,7 @@ if (typeof window !== 'undefined') AOS = require('aos')
 import 'aos/dist/aos.css'
 
 import Header from 'components/Header'
+import Footer from 'components/Footer'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
