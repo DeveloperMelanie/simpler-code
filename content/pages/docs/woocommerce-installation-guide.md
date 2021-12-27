@@ -21,7 +21,7 @@ content: >-
   **2. Login to your WooCommerce admin panel**
 
 
-  Add your credentials to access your WooCommerce admin panel: https://yourstore.com/wp-admin![](http://localhost:8000/static/Step2-b811700d2b9df93bafa1c796222f3c08.webp)
+  Add your credentials to access your WooCommerce admin panel: https://<span class="important-lite">yourstore.com</span>/wp-admin![](http://localhost:8000/static/Step2-b811700d2b9df93bafa1c796222f3c08.webp)
 
 
   </div>
