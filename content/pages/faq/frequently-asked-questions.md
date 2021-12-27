@@ -11,7 +11,7 @@ cards:
       Troubleshooting etc
     buttonText: See more
 content: >-
-  ## Shoppers
+  ## <div id="shoppers"Shoppers</div>
 
 
   ### What is Simpler Checkout? How does it work?
@@ -19,12 +19,9 @@ content: >-
 
   1. You click on the Simpler Quick Buy button that you see on a store, website, ad or social media platform
 
-
   2. You save your basic information during your first transaction with a seller within the Simpler network. No password is needed. Info is saved once and then never asked again.
 
-
   3. That’s it! Your order is on its way.
-
 
   4. Any time you see the Simpler Quick Buy button again, on any website, your information is saved so you don't have to enter it again.
 
@@ -98,7 +95,7 @@ content: >-
   You can learn more about how we handle personal data in our [Privacy Policy](http://localhost:8000/buyers-privacy-policy). In case you want us to delete all your information please reach out to us at [support@simpler.so](mailto:support@simpler.so).
 
 
-  ## Sellers
+  ## <div id="sellers">Sellers</div>
 
 
   ### How do I install Simpler Checkout to my website?
@@ -125,8 +122,6 @@ content: >-
   Every step a customer has to take in a conventional checkout flow introduces friction. We are relentlessly working on optimising our checkout flow to be simple, mobile optimised and robust, in order for you to focus in what matters instead of worrying about optimising your checkout.
 
 
-
-
   At the same time, we partner with the best payment services available in order to attain the best authorisation rates, eliminate fraud and ensure that all payment best practices are followed.
 
 
@@ -142,11 +137,7 @@ content: >-
   When a shopper clicks on the Simpler checkout button, the Simpler window will appear.
 
 
-
-
   If the shopper does not already have an account with Simpler, the shopper is prompted to fill in a lean form with the absolutely necessary fields (30% fewer than the average checkout). Info is saved once and then never asked again.
-
-
 
 
   If the shopper already has an account with Simpler, all information will be pre-filled so the shopper will just have to confirm all the details and place the order with one click.
