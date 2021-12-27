@@ -120,6 +120,6 @@ content: >-
   </div>
 
 
-  #### <div class="text-center">That's it! Simpler Checkout is successfully installed!</div>
+  #### <div class="text-center final">That's it! Simpler Checkout is successfully installed!</div>
 type: guide
 ---
