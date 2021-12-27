@@ -9,7 +9,6 @@ export default function GroupCards({
     secondaryCard,
     ...props
 }) {
-    console.log(destacatedCard)
     return (
         <Container {...props}>
             <div className='card'>

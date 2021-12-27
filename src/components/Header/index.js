@@ -8,11 +8,13 @@ import {
     MenuOpen,
     Filter,
     MobileMenu,
+    Active,
 } from './style'
 
 import Button from 'components/Button'
 
 export default function Header({ active }) {
+    const [isActive, setIsActive] = React.useState(false)
     const [isOpen, setIsOpen] = React.useState(false)
     const [expanded, setExpanded] = React.useState(false)
     const [visible, setVisible] = React.useState(true)
@@ -81,9 +83,23 @@ export default function Header({ active }) {
                         >
                             For Sellers
                         </Link>
-                        <Button to='/' isLink={false} className='ms-3'>
-                            Login or Sign up
-                        </Button>
+                        <div className='position-relative ms-3'>
+                            <Button
+                                to='/'
+                                isLink={false}
+                                onClick={() => setIsActive(prev => !prev)}
+                            >
+                                Login or Sign up
+                            </Button>
+                            {isActive && (
+                                <Active>
+                                    <a href='https://shopper.simpler.so/'>
+                                        I'm a shopper
+                                    </a>
+                                    <Link to='/get'>I'm a seller</Link>
+                                </Active>
+                            )}
+                        </div>
                     </div>
                 </div>
             </HeaderPage>

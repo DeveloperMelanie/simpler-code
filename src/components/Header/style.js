@@ -155,6 +155,36 @@ export const Menu = styled.div`
         background: ${colors.important};
     }
 `
+export const Active = styled.div`
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.35rem;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: -91px;
+    color: ${colors.black};
+    white-space: nowrap;
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.3rem 1.2rem;
+        border: 1px solid ${colors.gray};
+        font-size: 0.938rem;
+        font-style: normal;
+        letter-spacing: 0.05em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        color: ${colors.black};
+        border-radius: 6px;
+        text-align: center;
+        transition: all 0.2s ease;
+        :hover {
+            background: #f4f4f4;
+        }
+    }
+`
 export const MenuOpen = createGlobalStyle`
     body {
         overflow: ${props => (props.isOpen ? 'hidden' : 'auto')};
