@@ -16,6 +16,7 @@ collections:
           - { name: slug, label: Slug, widget: string, required: true }
           - { name: title, label: Title, required: true }
           - { name: content, label: Body, widget: markdown, required: true }
+          - { name: type, label: Type, widget: hidden, default: legal }
     - name: buyers-privacy-policy
       label: Privacy Policy
       folder: content/pages/buyers-privacy-policy
@@ -25,3 +26,4 @@ collections:
           - { name: slug, label: Slug, widget: string, required: true }
           - { name: title, label: Title, required: true }
           - { name: content, label: Body, widget: markdown, required: true }
+          - { name: type, label: Type, widget: hidden, default: legal }

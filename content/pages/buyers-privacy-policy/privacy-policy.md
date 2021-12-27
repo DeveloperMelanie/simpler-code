@@ -225,5 +225,5 @@ content: >-
   **18. How will you be notified of any changes to this Policy?**
 
 
-  Simpler updates this Policy whenever necessary. If there are significant changes in the Policy or in the way we process your Personal Data, we will publish on our website ([https://www.simpler.so/](http://localhost:8000/)) the update of this before the changes are made in force and we will notify you in any convenient way. Simpler encourages you to read this Policy regularly to know how your Data is protected.
+  Simpler updates this Policy whenever necessary. If there are significant changes in the Policy or in the way we process your Personal Data, we will publish on our website ([https://www.simpler.so/](/)) the update of this before the changes are made in force and we will notify you in any convenient way. Simpler encourages you to read this Policy regularly to know how your Data is protected.
 ---

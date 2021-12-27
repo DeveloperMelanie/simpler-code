@@ -19,21 +19,16 @@ export const Body = styled.div`
     font-size: 1rem;
     line-height: normal;
     p {
-        padding-bottom: 1rem;
+        margin-bottom: 1rem;
     }
     span,
     p,
     em {
         font-weight: 300;
-        margin: 0;
-    }
-    li,
-    ul {
-        padding-bottom: 0;
     }
     strong {
         display: block;
-        padding-bottom: 0;
+        margin-bottom: 1rem;
         font-weight: 600;
     }
     a {
