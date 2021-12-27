@@ -1,5 +1,5 @@
 ---
-pageTitle: Privacy Policy
+pageTitle: Privacy Policy a
 slug: /buyers-privacy-policy
 title: Privacy Policy
 content: >-
