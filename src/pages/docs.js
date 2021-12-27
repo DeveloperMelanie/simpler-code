@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import Layout from 'components/Layout'
 import SEO from 'components/SEO'
 
-import { GlobalDocument, Document, Body } from 'styles/docs'
+import { Document, Body } from 'styles/docs'
 
 import Step2 from 'images/Step2.webp'
 import Step3 from 'images/Step3.webp'
@@ -18,7 +18,6 @@ export default function Docs() {
     return (
         <Layout>
             <SEO title='Docs' />
-            <GlobalDocument />
             <Document>
                 <h1 className='title'>WooCommerce Installation Guide</h1>
                 <Body>

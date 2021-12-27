@@ -42,6 +42,9 @@ exports.createPages = async function ({ actions, graphql }) {
             case 'legal':
                 addPage(`./src/templates/legal-document.js`)
                 break
+            case 'guide':
+                addPage(`./src/templates/guide.js`)
+                break
         }
     })
 }

@@ -64,5 +64,5 @@ content: >-
 
 
   #### That's it! Simpler Checkout is successfully installed!
-type: legal
+type: guide
 ---

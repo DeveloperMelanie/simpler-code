@@ -27,3 +27,13 @@ collections:
           - { name: title, label: Title, required: true }
           - { name: content, label: Body, widget: markdown, required: true }
           - { name: type, label: Type, widget: hidden, default: legal }
+    - name: docs
+      label: Docs
+      folder: content/pages/docs
+      create: true
+      fields:
+          - { name: pageTitle, label: Page Title, widget: string }
+          - { name: slug, label: Slug, widget: string, required: true }
+          - { name: title, label: Title, required: true }
+          - { name: content, label: Body, widget: markdown, required: true }
+          - { name: type, label: Type, widget: hidden, default: guide }

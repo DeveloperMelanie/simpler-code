@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from 'styled-components'
+import styled from 'styled-components'
 import { colors } from './theme'
 
 export const Document = styled.div`
@@ -18,6 +18,7 @@ export const Body = styled.div`
     justify-content: center;
     max-width: 60rem;
     margin: 0 auto;
+    text-align: left;
     .separator:first-child {
         padding-top: 0;
     }
@@ -26,10 +27,6 @@ export const Body = styled.div`
         text-align: left;
     }
     .section {
-        ::before {
-            counter-increment: counter;
-            content: counter(counter) '. ';
-        }
         font-size: 1.25rem;
         margin-bottom: 2.5rem;
         font-weight: 600;
@@ -65,10 +62,5 @@ export const Body = styled.div`
     }
     .no-decoration {
         text-decoration: none !important;
-    }
-`
-export const GlobalDocument = createGlobalStyle`
-    body {
-        counter-reset: counter;
     }
 `
