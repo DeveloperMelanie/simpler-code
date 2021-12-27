@@ -1,5 +1,5 @@
 ---
-pageTitle: T&C Buyers a
+pageTitle: T&C Buyers
 slug: terms-buyers
 title: Terms & Conditions for Shoppers
 content: >-
