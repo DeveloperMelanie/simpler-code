@@ -95,7 +95,7 @@ content: >-
   You can learn more about how we handle personal data in our [Privacy Policy](http://localhost:8000/buyers-privacy-policy). In case you want us to delete all your information please reach out to us at [support@simpler.so](mailto:support@simpler.so).
 
 
-  ## <div id="sellers">Sellers</div>
+  ## <div class="section" id="sellers">Sellers</div>
 
 
   ### How do I install Simpler Checkout to my website?
