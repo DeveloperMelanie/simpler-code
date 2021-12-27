@@ -7,7 +7,6 @@ import 'aos/dist/aos.css'
 import Header from 'components/Header'
 import Footer from 'components/Footer'
 
-import { GlobalStyles } from 'styles/GlobalStyles'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 export default function Layout({ children, active }) {
@@ -19,7 +18,6 @@ export default function Layout({ children, active }) {
 
     return (
         <>
-            <GlobalStyles />
             <Header active={active} />
             <main>
                 <motion.section
