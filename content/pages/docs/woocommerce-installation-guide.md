@@ -3,13 +3,16 @@ pageTitle: Docs
 slug: docs
 title: WooCommerce Installation Guide
 content: >-
-  # WooCommerce Installation Guide
-
-
   **1. Register with Simpler as a Seller**
 
 
-  The first step is to [register with Simpler as a seller](http://localhost:8000/get). Once you have a seller account, your account manager will then provide you with your App ID & App Secret which you will need for the WooCommerce plugin installation.
+
+
+  The first step is to [register with Simpler as a seller](http://localhost:8000/get). Once you have a seller account, your account manager will then provide you with your ***App ID*** & ***App Secret*** which you will need for the WooCommerce plugin installation.
+
+
+
+
 
 
   **2. Login to your WooCommerce admin panel**
