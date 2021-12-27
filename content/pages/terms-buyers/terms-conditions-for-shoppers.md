@@ -9,13 +9,13 @@ content: >-
   *Effective on March 10, 2021*
 
 
-  This website [https://www.simpler.so/](http://localhost:8000/) (hereinafter referred to as the "Website") is owned by the company under the name “SIMPLER GROUP LTD”, based in London, at Kemp House, 160 City Road, EC1V 2NX (hereinafter referred to as “Simpler”, “we” or “us”) and you, the user of Simpler Services (website, 1-click Checkout service and applications) (“you” or “your”).
+  This website [https://www.simpler.so/](/) (hereinafter referred to as the "Website") is owned by the company under the name “SIMPLER GROUP LTD”, based in London, at Kemp House, 160 City Road, EC1V 2NX (hereinafter referred to as “Simpler”, “we” or “us”) and you, the user of Simpler Services (website, 1-click Checkout service and applications) (“you” or “your”).
 
 
   By using Simpler Services, you agree to be bound by these terms and conditions as well as the [terms and conditions](https://www.adyen.com/policies-and-disclaimer/privacy-policy) of our payment service provider, which are applicable to Simpler Service. Therefore, you shall carefully read both the terms and conditions of Simpler and the provider before making use of Simpler services and if you disagree, you shall refrain from using the Services.
 
 
-  Simpler maintains the right to amend wholly or partially the terms and conditions at any time and without notice. In this respect, Simpler will upload on the Website the terms and conditions that are applicable at the given time in order to duly inform you. For this reason,we will notify you by placing a notice on [https://www.simpler.so/](http://localhost:8000/) website, sending you an email, and/or by some other means. By continuing to use Simpler services, following any amendments, you are considered to have agreed unconditionally to the amended terms.
+  Simpler maintains the right to amend wholly or partially the terms and conditions at any time and without notice. In this respect, Simpler will upload on the Website the terms and conditions that are applicable at the given time in order to duly inform you. For this reason,we will notify you by placing a notice on [https://www.simpler.so/](/) website, sending you an email, and/or by some other means. By continuing to use Simpler services, following any amendments, you are considered to have agreed unconditionally to the amended terms.
 
 
   **1. General**

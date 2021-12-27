@@ -16,10 +16,10 @@ export const LegalDocument = styled.div`
 export const Body = styled.div`
     text-align: left;
     color: ${colors.gray};
-    * {
+    font-size: 1rem;
+    line-height: normal;
+    p {
         padding-bottom: 1rem;
-        font-size: 1rem;
-        line-height: normal;
     }
     span,
     p,
