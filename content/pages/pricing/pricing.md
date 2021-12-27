@@ -8,7 +8,7 @@ destacatedCard:
   description: |-
     ### 1,3% + €0,25
 
-    <span class="p-0">per successful transaction in EU/ EEA</span>
+    <span class="m-0">per successful transaction in EU/ EEA</span>
 
     * +2.15% for transactions with cards issued outside of the EU/ EEA
     * +1.5% fee applies to multi-currency transactions for major currencies
