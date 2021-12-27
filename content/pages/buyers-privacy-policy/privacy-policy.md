@@ -12,7 +12,7 @@ content: >-
   For any question regarding the processing of your Data, do not hesitate to contact us by:
 
 
-  * emailing us at [support@simpler.so](mailto:support@simpler.so)
+  * emailing us at <span class="no-decoration">[support@simpler.so](mailto:support@simpler.so)</span>
 
   * writing to us at Kemp House, 160 City Road, London EC1V 2NX.
 
@@ -154,7 +154,7 @@ content: >-
   We keep your Data only for the time required to fulfill the purpose for which we have collected them, unless a time extension is required due to our legal claims or legal obligations.
 
 
-  The Data collected by the Cookies, are deleted according to the Cookies page.
+  The Data collected by the Cookies, are deleted according to the [Cookies page](https://www.simpler.so/cookie-policy).
 
 
   **11. Is your Data safe?**
@@ -189,7 +189,7 @@ content: >-
   **13. How can you exercise your rights?**
 
 
-  You can exercise your rights by posting the Application form available here and send it either to Simpler's address in London (Kemp House, 160 City Road, London EC1V 2NX) or by email at support@simpler.so. If you hold a Simpler account, you can alternatively use the e-form found here and submit it online.
+  You can exercise your rights by posting the Application form available here and send it either to Simpler's address in London (Kemp House, 160 City Road, London EC1V 2NX) or by email at <span class="no-decoration">[support@simpler.so](mailto:support@simpler.so)</span>. If you hold a Simpler account, you can alternatively use the e-form found [here](/contact) and submit it online.
 
 
   **14. When does Simpler respond to your requests?**
@@ -201,7 +201,7 @@ content: >-
   If your requests are manifestly unfounded or excessive, due to their recurring nature, Simpler may impose a reasonable fee, taking into account the administrative costs of providing the information or performing the requested action, or refusing to comply with the request, justifying its answer to you.
 
 
-  For more information you can send an email at [support@simpler.so](mailto:support@simpler.so).
+  For more information you can send an email at <span class="no-decoration">[support@simpler.so](mailto:support@simpler.so)</span>.
 
 
   **15. Does Simpler use automated decision making, including profiling during the processing of your Data?**
@@ -219,7 +219,7 @@ content: >-
   **17. Where can you go to check if your rights have been respected?**
 
 
-  If you do not receive a response within the stipulated deadline (one month with - subject to extension - two months) or the response you receive is unsatisfactory or the issue has not been resolved, you can lodge a complaint with the Information Commissioner’s Office ([www.ico.org.uk](https://www.ico.org.uk/)) or the data protection supervisory authority in the country in which you live or work where you think we have infringed data protection laws.
+  If you do not receive a response within the stipulated deadline (one month with - subject to extension - two months) or the response you receive is unsatisfactory or the issue has not been resolved, you can lodge a complaint with the Information Commissioner’s Office (<span class="no-decoration">[www.ico.org.uk](https://www.ico.org.uk/)</span>) or the data protection supervisory authority in the country in which you live or work where you think we have infringed data protection laws.
 
 
   **18. How will you be notified of any changes to this Policy?**
