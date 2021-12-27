@@ -62,7 +62,7 @@ content: >-
   Simpler accepts all local and international prepaid, debit and credit cards.
 
 
-  ## <div class="special-title"Privacy & Security></div>
+  ## <div class="special-title">Privacy & Security</div>
 
 
   ### What information do you collect? How do you handle data?
