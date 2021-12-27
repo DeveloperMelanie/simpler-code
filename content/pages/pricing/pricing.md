@@ -13,9 +13,11 @@ destacatedCard:
     * +2.15% for transactions with cards issued outside of the EU/ EEA
     * +1.5% fee applies to multi-currency transactions for major currencies
   buttonText: Get Simpler
+  buttonLink: get
 secondaryCard:
   title: Custom
   description: Get tailored pricing for high transaction volumes.
   buttonText: Contact Sales
+  buttonLink: get
 type: pricing
 ---
