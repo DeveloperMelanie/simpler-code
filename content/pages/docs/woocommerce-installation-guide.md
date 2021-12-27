@@ -90,7 +90,7 @@ content: >-
   **7. Authorise Simpler to connect with your WooCommerce store**
 
 
-  Go to: <span class="no-decoration">[https://merchants.simpler.so/v1/integrations/authorize](https://merchants.simpler.so/v1/integrations/authorize/)</span>/App ID?return_url=simpler.so adding your App ID from Step 1. Click on "Approve" to allow Simpler to connect to your store.![](http://localhost:8000/static/Step7-204c421e007cf7353482b6be25a490ca.webp)
+  Go to: <span class="no-decoration">[https://merchants.simpler.so/v1/integrations/authorize](https://merchants.simpler.so/v1/integrations/authorize/)</span>/<span class="text-decoration-underline"><span class="important">*App ID*</span>?return_url=simpler.so</span> adding your App ID from Step 1. Click on "Approve" to allow Simpler to connect to your store.![](http://localhost:8000/static/Step7-204c421e007cf7353482b6be25a490ca.webp)
 
 
   </div>
@@ -120,6 +120,6 @@ content: >-
   </div>
 
 
-  #### That's it! Simpler Checkout is successfully installed!
+  #### <div class="text-center">That's it! Simpler Checkout is successfully installed!</div>
 type: guide
 ---
