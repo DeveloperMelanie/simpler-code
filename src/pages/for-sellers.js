@@ -27,7 +27,17 @@ export default function ForSellers() {
         <Layout active='for-sellers'>
             <SEO title='For Sellers' />
             {videoVisible && (
-                <FullscreenFixed setAction={setVideoVisible}>
+                <FullscreenFixed
+                    className='video-container'
+                    setAction={setVideoVisible}
+                    onClick={e => {
+                        console.log(e.target.className)
+                        if (e.target.className.length) {
+                            e.target.className.indexOf('video-container') !==
+                                -1 && setVideoVisible(false)
+                        }
+                    }}
+                >
                     <video
                         preload='none'
                         autoPlay

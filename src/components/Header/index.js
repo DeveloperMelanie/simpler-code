@@ -61,7 +61,12 @@ export default function Header({ active }) {
                     </div>
                 </Menu>
             </MobileMenu>
-            <HeaderPage isOpen={isOpen} expanded={expanded} visible={visible}>
+            <HeaderPage
+                isOpen={isOpen}
+                expanded={expanded}
+                visible={visible}
+                isActive={isActive}
+            >
                 <div className='contain'>
                     <Link to='/' id='logo' className='poppins'>
                         Simpler.

@@ -9,7 +9,7 @@ export const HeaderPage = styled.header`
     width: 100%;
     padding: 0 1rem;
     padding-top: 1.8rem;
-    padding-bottom: 3.2rem;
+    padding-bottom: ${props => (props.isActive ? '7rem' : '3.2rem')};
     font-size: 1rem;
     box-shadow: ${props =>
         props.expanded
