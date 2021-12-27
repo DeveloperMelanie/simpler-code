@@ -1,4 +1,5 @@
 ---
+slug: terms-buyers
 title: Terms & Conditions for Shoppers
 content: >-
   **Welcome to the official Simpler website.**
